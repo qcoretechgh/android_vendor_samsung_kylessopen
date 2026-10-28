@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kylessopen/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/samsung/kylessopen/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/kylessopen/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
+    vendor/samsung/kylessopen/proprietary/lib/hw/camera.msm7627a.so:system/lib/hw/camera.msm7627a.so \
     vendor/samsung/kylessopen/proprietary/media/Disconnected.qmg:system/media/Disconnected.qmg \
     vendor/samsung/kylessopen/proprietary/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
     vendor/samsung/kylessopen/proprietary/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
@@ -94,6 +95,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kylessopen/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/kylessopen/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/kylessopen/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
+    vendor/samsung/kylessopen/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v03005.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03005.so \
+    vendor/samsung/kylessopen/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
+    vendor/samsung/kylessopen/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
+    vendor/samsung/kylessopen/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
+    vendor/samsung/kylessopen/proprietary/lib/libmvsechocanceler.so:system/lib/libmvsechocanceler.so \
+    vendor/samsung/kylessopen/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/kylessopen/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/samsung/kylessopen/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/samsung/kylessopen/proprietary/lib/libdiag.so:system/lib/libdiag.so \
@@ -128,6 +135,24 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kylessopen/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
     vendor/samsung/kylessopen/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/samsung/kylessopen/proprietary/bin/hostapd:system/bin/hostapd \
+    vendor/samsung/kylessopen/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/samsung/kylessopen/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin \
     vendor/samsung/kylessopen/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin \
-    vendor/samsung/kylessopen/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin
+    vendor/samsung/kylessopen/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/fw-3.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-3.bin \
+    vendor/samsung/kylessopen/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin \
+    vendor/samsung/kylessopen/proprietary/lib/hw/audio.primary.msm7x27a.so:system/lib/hw/audio.primary.msm7x27a.so \
+    vendor/samsung/kylessopen/proprietary/lib/hw/audio.primary.msm7627a.so:system/lib/hw/audio.primary.msm7627a.so \
+    vendor/samsung/kylessopen/proprietary/lib/hw/audio_policy.msm7x27a.so:system/lib/hw/audio_policy.msm7x27a.so \
+    vendor/samsung/kylessopen/proprietary/lib/hw/audio_policy.msm7627a.so:system/lib/hw/audio_policy.msm7627a.so \
+    vendor/samsung/kylessopen/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
+    vendor/samsung/kylessopen/proprietary/lib/libmvsechocanceler.so:system/lib/libmvsechocanceler.so \
+    vendor/samsung/kylessopen/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
+    vendor/samsung/kylessopen/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v03005.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03005.so \
+    vendor/samsung/kylessopen/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
+    vendor/samsung/kylessopen/proprietary/lib/lib_SamsungRec_V01005.so:system/lib/lib_SamsungRec_V01005.so \
+    vendor/samsung/kylessopen/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
+    vendor/samsung/kylessopen/proprietary/lib/libmvs.so:system/lib/libmvs.so \
+    vendor/samsung/kylessopen/proprietary/lib/libmvsclient.so:system/lib/libmvsclient.so \
+    vendor/samsung/kylessopen/proprietary/lib/libsamsungDiamondVoice.so:system/lib/libsamsungDiamondVoice.so \
+    vendor/samsung/kylessopen/proprietary/app/Phonesky.apk:system/app/Phonesky.apk \
+    vendor/samsung/kylessopen/proprietary/lib/libsnd.so:system/lib/libsnd.so
